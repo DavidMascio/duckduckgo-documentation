@@ -76,7 +76,7 @@ bar.c = 42;
 + If you're using a jQuery selector many times, it's best to assign it to a variable.
 
 ```javascript
-// prefer this:
+//prefer this:
 var $text_element = $('#text_element');
 $text_element.show();
 $text_element.html('abc');
@@ -90,7 +90,7 @@ $('#text_element').html('abc');
 
 The goal here is to ensure the Handlebars template is easy to read and understand. Please:
 
-+ put nested elements on new lines:
++ Put nested elements on new lines:
 
 ```html
 <ul>
